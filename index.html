@@ -334,11 +334,46 @@
       </div>
     </section>
 
-    <!-- <section id="joen-us" class="joen-us section-offset">
+    <section id="joen-us" class="joen-us section-offset">
       <div class="container">
-
+        <h2 class="section__title joen-us__title">
+          Join&nbsp;us
+        </h2>
+        <p class="section__descr joen-us__descr">
+          Take control of&nbsp;your paid subscriptions today!
+        </p>
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <div class="form__top flex">
+            <div class="form__left">
+              <input class="form__input" type="text" name="name" placeholder="Name" required>
+              <input class="form__input" type="email" name="email" placeholder="E-mail" required>
+              <input class="form__input" type="tel" name="phone" placeholder="Phone" required>
+              <select class="form__select" name="country">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form__right">
+              <textarea class="form__textarea" name="comment" placeholder="Comment"></textarea>
+            </div>
+          </div>
+          <div class="form__bottom">
+            <div class="form__wrapper flex">
+              <button class="btn btn-reset form__btn">Get Start</button>
+              <label class="form__check" for="">
+                <input type="checkbox" required>
+                I&nbsp;agree with the <a href="#">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
       </div>
-    </section> -->
+    </section>
   </main>
 
   <footer class="footer">
